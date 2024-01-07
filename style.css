@@ -8,6 +8,9 @@
     font-family: 'Merriweather', serif;
     
 }
+body{
+    max-width: 1600px;
+}
 
 header{
     
@@ -45,7 +48,7 @@ header .container h3{
     margin-left: 334px;
 }
 .off-container{
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
 .off-container h1{
@@ -89,7 +92,7 @@ header .container h3{
 
 .welcome-container h1{
     color: #FFF;
-    width: 642px;
+    max-width: 642px;
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
@@ -98,7 +101,8 @@ header .container h3{
 
 
 }
-p{
+
+ .welcome-container p{
     color: #FFFFFFCC;
     font-size: 18px;
     font-weight: 400px;
@@ -106,16 +110,9 @@ p{
     width: 697px;
     font-family: 'Inter', sans-serif;
     margin-left: 126px;
-/* .welcome-container p{
-    color: #FFFFFFCC;
-    font-size: 18px;
-    font-weight: 400px;
-    line-height: 30px;
-    width: 697px;
-    font-family: 'Inter', sans-serif;
-    margin-left: 126px; */
+ }
 
-}
+
 
 .welcome-container button{
     text-align: center;
@@ -123,7 +120,7 @@ p{
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
+    color: #eb5353;
     margin-left: 158px;
 
 }
@@ -132,7 +129,7 @@ p{
 }
 
 .place-container{
-    width: 1320px;
+    max-width: 1320px;
     height: 482px;
     background-color: #ffe9e9;
     margin: 0 auto;
@@ -146,7 +143,7 @@ p{
     font-weight: 600;
     line-height: 56px;
     margin-bottom: 64px;
-    /* margin-top: 100px; */
+  
 
 }
 .place-container button{
@@ -163,4 +160,75 @@ p{
 
 span{
     color: #F00;
+}
+
+
+.coming-container{
+    max-width: 1320px;
+    height: 482px;
+
+    margin: 50px auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.coming-text{
+
+}
+.coming-text h1{
+    color: #F00;
+    
+    text-align: left;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+
+}
+.coming-text h2{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.coming-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 393px;
+}
+.coming-img img{
+   
+    padding: 30px;
+    width: 300px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+}
+.coming-2024 h1{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.coming-2024 p{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 32px; 
+
+}
+.happy-img img{
+    width: 140px;
+    height: 140px;
+}
+.coming-2024 *{
+    margin-bottom: 10px;
 }
